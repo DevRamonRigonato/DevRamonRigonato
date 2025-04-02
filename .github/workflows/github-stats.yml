@@ -1,0 +1,25 @@
+name: GitHub Stats Update
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Atualiza todo dia à meia-noite
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Stats
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=DevRamonRigonato&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&line_height=25&hide=issues&bg_color=000&title_color=FF00F6&text_color=FFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly"
+
+      - name: Generate Most Used Languages
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          curl -o most-used-languages.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=DevRamonRigonato&layout=compact&langs_count=6&theme=jolly&bg_color=000&text_color=FFF&title_color=FF00F6&border_radius=3&border_color=36123c"
