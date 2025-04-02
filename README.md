@@ -33,3 +33,15 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="40" width="50" alt="Python Logo" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL Logo" /><img width="8" />
 </div>
+
+
+<div align="center">
+  <h3>* GitHub Stats *</h3>
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api?username=DevRamonRigonato&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&line_height=25&hide=issues&bg_color=0D1117&title_color=00A8E8&text_color=C9D1D9&border_radius=5&border_color=30363D&icon_color=00A8E8&theme=dark" alt="GitHub stats">
+
+  <a href="https://github.com/DevRamonRigonato/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevRamonRigonato&line_height=10&card_width=290&layout=compact&hide_title=false&count_private=true&langs_count=4&show_icons=true&title_color=00A8E8&hide=html,scss,less&bg_color=0D1117&text_color=C9D1D9&border_radius=5&border_color=30363D" alt="Most Used Languages">
+  </a>
+</div>
+
