@@ -5,7 +5,7 @@
 # 👨🏽‍💻 Ramon Rigonato
 
 <p align="center">
-  Aprendendo e construindo projetos incríveis 😎🖖🏽
+  Aprendendo e construindo projetos incríveis 🤓🖖🏽
 </p>
 
 ---
